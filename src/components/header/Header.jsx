@@ -13,7 +13,7 @@ function Header() {
         params: {
           lon: '75.414001',
           lat: '11.86078',
-          appid: 'dc2d574aebc42e3131ee8ecade85e064' // Replace with your OpenWeatherMap API key
+          appid: import.meta.env.WEATHER_API_KEY // Replace with your OpenWeatherMap API key
         }
       };
 
